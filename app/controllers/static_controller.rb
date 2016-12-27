@@ -4,9 +4,6 @@ class StaticController < ApplicationController
   caches_page :portfolio, :team, :testimonials, :open_source
 
   def portfolio
-    @projects = PROJECTS.select { |p| p[:display] }
-    @keywords = "Josh Software portfolio, works we have accompolished, #{@projects.collect{|p| p[:technical][:tags]}.uniq.join(", ")}"
-    @description = "We work in various industry verticals like Insurance, Manufacturing, Media, eCommerce, Social Sector and Information Technology as long as the work is in Ruby. We all work in different stacks like AngularJs, Ionic, EleasticSearch, MongoDB, Postgres, MySQL, Google Chart, HightChart, Paypal, OpenStack, Sidekiq, Redis, AWS, JWPlayer, Nginx"
   end
 
   def team
