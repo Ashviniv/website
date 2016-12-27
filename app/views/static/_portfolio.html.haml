@@ -36,6 +36,14 @@
                     {{#tags}}
                     %li {{.}}
                     {{/tags}}
+                    {{#used_filter_js?}}
+                    %li
+                      %a{href: "http://github.com/jiren/filter.js", target: "_blank"} filter.js
+                    {{/used_filter_js?}}
+                    {{#used_streamtable_js?}}
+                    %li
+                      %a{href: "https://github.com/jiren/StreamTable.js", target: "_blank"} StreamTable.js
+                    {{/used_streamtable_js?}}
                   {{#case_study_url}}
                   %ul.list-unstyled.tagg
                     %li
