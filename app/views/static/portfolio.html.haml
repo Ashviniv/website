@@ -3,3 +3,6 @@
 
 :javascript
   intranet_url = "#{INTRANET_URL}"
+  $(window).on('load', function(){
+    window.location = window.location.href; 
+  })
