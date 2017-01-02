@@ -9,5 +9,8 @@
       template = $('#portfolio-template').html();
       x = Mustache.render(template, {projects: data});
       $('#portfolio').html(x);
+      if(window.location.hash != ""){
+        window.location = window.location.hash;
+      }
     })
   });
