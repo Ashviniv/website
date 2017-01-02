@@ -1,18 +1,56 @@
 TESTIMONIES= [
   {
+    id: "blueshift",
+    title: "Co-Founder",
+    url: "https://getblueshift.com/",
+    company: "Blueshift Labs",
+    endorser: "Mehul Shah",
+    endorsement: "The Josh team are great partners and technically adept at what they do. They are professional, responsive and fun to work with. The team has been effective at helping us build 3rd party integrations and connectors, and <a href = 'http://english.stackexchange.com/questions/95890/usage-of-recommend' target = '_blank'>I can't recommend this team enough.</a>",
+    display: true
+  },
+
+  {
+    id: "synergy",
+    title: "Manager (Projects and Quality)",
+    url: "http://www.synergydesignsolutions.com/",
+    company: "Synergy Design Solutions Pte.Ltd",
+    endorser: "Wee Tien Guan",
+    endorsement: "We engaged Josh Software two years ago to provide both web development utilizing Ruby on Rails and Mobile development on Android. Since then we have released two highly customized ERP solutions and a subscription based Android app with a subscription management backend. The people at Josh are not just experienced and excellent professionals, but working with them has been an enjoyable experience. They have been able to meet our targets despite strict requirements and tight timelines on all three projects. Due to the highly customized nature of the ERP solutions and the Android app, requirements were often increased in scope or new requirements added as the projects progressed. <wbr>Despite all these, Josh Software delivered and we are more than happy to work with them on upcoming projects.",
+    display: true
+  },
+
+  {
+    id: "fundamentor",
+    title: "Founder & Director",
+    url: "http://fundamentor.com",
+    company: "Fundamentor",
+    endorser: "Amol Patkar",
+    endorsement: "<p>Before getting Josh on board for our startup , we had done a lot of homework on IT vendors as well as tackled the question of whether to inhouse or outsource tech . The points which were in Josh's favour were</p>
+    <p>
+    A. Very competent & experienced team<br>
+    B. Use of efficient, robust & thorough processes/tools like pivotal tracker , github etc<br>
+    C. They had worked with a lot of startups across the world with good customer feedback on quality as well as timelines.<br>
+    </p>
+    <wbr>
+    <p>We had a heard a lot of horror stories faced by startups about outsourced tech work so we kept our fingers crossed after they started work , but to our absolute delight Josh has functioned as an extended IT dept of our startup. They are very good at  execution as well as providing suggestions/advice. They have  delivered as per their estimates and forecasts of time and effort .</p>
+    I will strongly recommend them for any startup who wants to be lean and efficient.",
+
+    display: true
+  },
+  {
     id: "dealsignal",
     title: "Founder & CEO",
     url: "http://dealsignal.com/",
     company: "DealSignal, Inc.",
     endorser: "Rob Weedn",
     endorsement: "<p>Josh has provided DealSignal with highly experienced engineering management, disciplined development processes, talented developers, and have always excellent project management and client communications. </p>
-    
+
 <p>    The Josh team consistently delivers nearly flawless, well documented code.  They can quickly understand product requirements, and breakdown development tasks to ensure rapid execution.  The team sets good expectations on delivery timeframes and always meets expectations.  In many urgent situations, Josh managers and developers have gone many extra miles to make a deliverable happen by a key deadline.</p><wbr>
-    
+
 <p>    With regard to technology, the Josh team's knowledge of Ruby, Postgres, Rest APIs, AWS, Regex, web crawling, data management, and systems integration far exceed all other non-US resources and frankly have proven to be much better than many Silicon Valley developers that we have worked with in the past. Along with modern software development stack, Josh team also uses modern development tools including Pivotaltracker, Github and provide detailed status updates to manage the project and keep our executives informed. </p>
 
 <p>    The Josh team takes great pride in their work, takes great care to ensure their clients' success, and we have grown to feel strongly that our Josh team is part of the family in our venture.  We would recommend Josh team for any server side development project and have already referred other entrepreneurs we know to engage them.</p> ",
-    display: true
+display: true
   },
   {
     id: "clubbuzz",
